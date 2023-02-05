@@ -20,6 +20,7 @@ public class CardDeliveryTest {
 
 
 
+
     @Test
     void shouldTestFormFirstAgain() {
         $("[data-test-id='city'] input").setValue(DataGenerator.generateCity());
